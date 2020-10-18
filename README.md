@@ -19,6 +19,9 @@ SpySatellite is just a PoC to prove it's possible to make use of satellite assem
 2. The strong name of satellite assemblies is not strictly checked. A modified satellite assembly can still be loaded.
 3. Satellite assemblies can be provided by a 3rd party - such as translators or plugin makers. With this technique, they can add license check or malicious code into the main program.
 
+## Thanks
+The SpySatellite technique is inspired by the Resx Plugin of [ysoserial.net](https://github.com/pwntester/ysoserial.net).
+
 ---
 
 by Ulysses (wdwxy12345@gmail.com)
